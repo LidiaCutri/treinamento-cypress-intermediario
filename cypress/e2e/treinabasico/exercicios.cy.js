@@ -140,5 +140,6 @@ describe('Central de atendimento ao Cliente TAT', function(){
     it('019 - acessa a página da política de privacidade revomento o target', function(){
         cy.get('#privacy a')
         .invoke('removeAttr','target').click()
+        cy.contains('Talking Abouts Testing').should('be.visible')
     })
 })
