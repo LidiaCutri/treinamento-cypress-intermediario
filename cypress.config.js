@@ -5,9 +5,11 @@ module.exports = defineConfig({
   viewportHeight: 880,
 
   e2e: {
-    baseUrl: 'https://cac-tat.s3.eu-central-1.amazonaws.com',
+    baseUrl: 'http://localhost',
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
   },
+    fixturesFolder: false,
+    video: false,
 });

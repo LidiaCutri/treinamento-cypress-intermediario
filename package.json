@@ -9,12 +9,13 @@
     "cy:open:mobile": "cypress open --config viewportWidth=410 viewportHeight=860",
     "cy:run:mobile": "cypress run --config viewportWidth=410 viewportHeight=860",
     "teste": "cypress run"
-
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.13.0"
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.13.0",
+    "cypress-plugin-api": "^2.6.1"
   }
 }
