@@ -1,6 +1,6 @@
 # Treinamento de Cypress
 
-# Treimento Intermediário
+# Treinamento Intermediário
 
 O que aprendi:
 - Como configurar o ambiente local de desenvolvimento
